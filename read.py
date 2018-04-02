@@ -229,7 +229,7 @@ def chuli_1():
     while(True):
         if(dic!={}):
             print('dic = ',dic)
-            time.sleep(2)
+            #time.sleep(2)
         for i in list(dic.values()):
             pp = move.match(i)
             if(pp == None):#不是方向键
